@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scopri il tuo Nahual</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Calendario Maya - Trova il tuo Nahual</h1>
+
+    <p>Inserisci la tua data di nascita</p>
+
+    <input type="date" id="birthdate">
+
+    <button onclick="trovaNahual()">
+        Scopri il Nahual
+    </button>
+
+    <div id="risultato" class="hidden">
+
+        <h2 id="nome"></h2>
+
+        <img id="immagine" src="" alt="Nahual">
+
+        <h3 id="animale"></h3>
+
+        <div class="box">
+            <h4>Offerta</h4>
+            <p id="offerta"></p>
+        </div>
+
+        <div class="box">
+            <h4>Significato</h4>
+            <p id="descrizione"></p>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
